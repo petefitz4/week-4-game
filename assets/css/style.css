@@ -1,0 +1,99 @@
+body {
+	background-image: url("../images/background.jpg");
+}
+
+p {
+	font-weight: bold;
+	color:limegreen;
+}
+
+h1{
+	background-color: chocolate;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: antiquewhite;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+#NumbertoMatch {
+	background-color: limegreen;
+	color:purple;
+	font-size:28px;
+	text-align: left;
+	float: left;
+	display: inline-block;
+	padding: 1px 200px 14px 5px;
+	margin-top: 20px;
+}
+
+#scoreboard {
+	background-color: aqua;
+	display: inline-block;
+	padding: 10px 20px 8px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	background-color: white;
+	height: 75px;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 25px;
+	font-size:12px;
+	width:200px;
+}
+
+#score {
+	margin-bottom: 50px;
+	padding-top:20px;
+	width:300px;
+}
+
+#finalScore {
+	background: forestgreen;
+	color:white;
+	display: inline;
+	padding: 20px;
+	
+}
+
+#scoreTally {
+	background: forestgreen;
+	color:white;
+	display:inline;
+	margin-top: 1px;
+	padding: 20px;
+
+	
+}
